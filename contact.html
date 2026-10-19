@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>G&A Natural Foods — Contact</title>
+    <meta name="description" content="Call or WhatsApp G&A Natural Foods with your list of makhana, grams, rice, and atta.">
+    <meta name="theme-color" content="#1e3d32">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-page="Contact">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-bar">
+        <a class="logo" href="index.html">
+          <img class="logo-mark" src="images/logo.png" alt="">
+          <span data-shop="name">G&A Natural Foods</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <a class="btn btn-small" data-whatsapp href="https://wa.me/919800000000">Order on WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="wrap page-intro">
+        <p class="eyebrow">Contact</p>
+        <h1>Send the list.</h1>
+        <p class="lede">We reply with what is in stock and the total. Nothing is packed before that.</p>
+      </header>
+
+      <section class="section">
+        <div class="wrap split">
+          <aside class="contact-card">
+            <h2 class="section-title">Shop</h2>
+            <div class="contact-list">
+              <p><span>Address</span><strong data-shop="address">12 Market Lane, Sample Nagar, Patna 800001</strong></p>
+              <p><span>Hours</span><strong data-shop="hours">Mon–Sat, 9:00 am – 7:00 pm</strong></p>
+              <p><span>Phone</span><a data-shop="phone" data-shop-link="phone" href="tel:+919800000000">+91 98000 00000</a></p>
+              <p><span>Email</span><a data-shop="email" data-shop-link="email" href="mailto:ganaturalfoods@gmail.com">ganaturalfoods@gmail.com</a></p>
+              <p><span>Delivery</span><strong data-shop="delivery">Free delivery inside Sample Nagar. Pickup from the shop counter.</strong></p>
+              <p><span>UPI</span><strong data-shop="upi">anajghar@upi</strong></p>
+              <p><span>FSSAI</span><strong data-shop="fssai">10000000000000</strong></p>
+            </div>
+            <p style="margin-top: 1.2rem"><a class="btn btn-primary" data-whatsapp href="https://wa.me/919800000000">Open WhatsApp</a></p>
+          </aside>
+
+          <form class="form" id="order-form">
+            <h2 class="section-title">Order note</h2>
+            <p class="note">This form does not store anything. It opens WhatsApp with your message, and you press send there.</p>
+            <label class="field"><span>Name</span><input name="name" required autocomplete="name" placeholder="Your name"></label>
+            <label class="field"><span>Phone</span><input name="phone" required autocomplete="tel" inputmode="tel" placeholder="10-digit mobile"></label>
+            <label class="field"><span>City</span><input name="city" autocomplete="address-level2" placeholder="Your city"></label>
+            <label class="field"><span>Items</span><input name="items" required placeholder="Atta 5 kg, chana dal 1 kg"></label>
+            <label class="field"><span>Message</span><textarea name="message" placeholder="Pickup or delivery, any larger pack"></textarea></label>
+            <button class="btn btn-primary" type="submit">Send on WhatsApp</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h2 data-shop="name">G&A Natural Foods</h2>
+          <p class="note" data-shop="tagline">Pure Ingredients. Honest Goodness.</p>
+        </div>
+        <div>
+          <p><a data-shop-link="phone" href="tel:+919800000000"><span data-shop="phone">+91 98000 00000</span></a></p>
+          <p><a data-shop-link="email" href="mailto:ganaturalfoods@gmail.com"><span data-shop="email">ganaturalfoods@gmail.com</span></a></p>
+          <p class="note" data-shop="address">12 Market Lane, Sample Nagar, Patna 800001</p>
+        </div>
+        <div>
+          <p data-shop="hours">Mon–Sat, 9:00 am – 7:00 pm</p>
+          <p class="note" data-shop="delivery">Free delivery inside Sample Nagar. Pickup from the shop counter.</p>
+          <p class="note"><a href="products.html">Products</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a></p>
+        </div>
+      </div>
+      <div class="wrap fineprint">© <span data-year>2026</span> <span data-shop="name">G&A Natural Foods</span>. FSSAI <span data-shop="fssai">10000000000000</span>. Prices are confirmed on WhatsApp before packing.</div>
+    </footer>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
